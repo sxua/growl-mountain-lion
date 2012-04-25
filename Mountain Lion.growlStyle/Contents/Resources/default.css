@@ -1,29 +1,29 @@
 body {
-	margin: 0 0 0 1px;
-	padding: 0;
-  width: 280px;
+	margin: 1px 0 0 1px;
+	padding: 0 5px 0 0;
+  width: 298px;
 }
 
 body > div {
-	width: 280px;
-	min-height: 64px;
-	font: 12px "Lucida Grande", sans-serif;
-	color: #222;
+	width: 298px;
+	min-height: 48px;
+	font: 11px "Lucida Grande", sans-serif;
+	color: #6e6e6e;
 	margin: 0;
-	padding: 9px;
+	padding: 8px;
   -webkit-box-sizing: border-box;
   -webkit-border-radius: 5px;
-  -webkit-box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .55);
-	background: -webkit-linear-gradient(rgba(255, 255, 255, .9), rgba(221, 221, 221, .9));
+	background: -webkit-linear-gradient(rgba(255, 255, 255, .95), rgba(244, 244, 244, .95));
+  position: relative;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, .95);
 }
 
 #icon {
 	width: 32px;
 	height: 32px;
-	margin-right: 14px;
-	float: left;
-	top: 10px;
-	left: 10px;
+	top: 8px;
+	left: 7px;
+  position: absolute;
 }
 
 #icon img {
@@ -33,16 +33,16 @@ body > div {
 
 #title {
 	font-size: 12px;
-	font-weight: 400;
-	color: #777;
-	margin-bottom: 6px;
-	padding-left: 51px;
+	color: #6c6c6c;
+	margin-bottom: 4px;
+	padding-left: 39px;
+  font-weight: 600;
 }
 
 #text {
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-left: 5px;
+  padding-left: 39px;
 }
 
 @-webkit-keyframes MountainLion {
