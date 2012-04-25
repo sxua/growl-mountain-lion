@@ -8,7 +8,7 @@ Original style:
 
 Fixed style:
 
-![Fixed style](http://pix.am/uM5E.png "Fixed style")
+![Fixed style](http://pix.am/uUy0.png "Fixed style")
 
 ## Installation
 
