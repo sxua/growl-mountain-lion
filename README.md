@@ -13,7 +13,10 @@ Fixed style:
 ## Installation
 
 ```
-curl -fksSL https://raw.github.com/sxua/growl-mountain-lion/master/install.sh | sh
+cd
+mkdir -p ~/Library/Application\ Support/Growl/Plugins
+git clone git://github.com/sxua/growl-mountain-lion.git
+mv ~/growl-mountain-lion/Mountain\ Lion.growlStyle ~/Library/Application\ Support/Growl/Plugins/
 ```
 
 ## TODO
