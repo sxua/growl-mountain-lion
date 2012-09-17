@@ -1,41 +1,41 @@
 body {
-	margin: 1px 0 0 1px;
-	padding: 0 5px 0 0;
+  margin: 1px 0 0 1px;
+  padding: 0 5px 0 0;
   width: 298px;
 }
 
 body > div {
-	width: 298px;
-	min-height: 48px;
-	font: 11px "Lucida Grande", sans-serif;
-	color: #6e6e6e;
-	margin: 0;
-	padding: 8px;
+  width: 298px;
+  min-height: 48px;
+  font: 11px "Lucida Grande", sans-serif;
+  color: #6e6e6e;
+  margin: 0;
+  padding: 8px;
   -webkit-box-sizing: border-box;
   -webkit-border-radius: 5px;
-	background: -webkit-linear-gradient(rgba(255, 255, 255, .95), rgba(244, 244, 244, .95));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, .95), rgba(244, 244, 244, .95));
   position: relative;
   text-shadow: 1px 1px 0 rgba(255, 255, 255, .95);
 }
 
 #icon {
-	width: 32px;
-	height: 32px;
-	top: 8px;
-	left: 7px;
+  width: 32px;
+  height: 32px;
+  top: 8px;
+  left: 7px;
   position: absolute;
 }
 
 #icon img {
-	width: 32px;
-	height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 #title {
-	font-size: 12px;
-	color: #6c6c6c;
-	margin-bottom: 4px;
-	padding-left: 39px;
+  font-size: 12px;
+  color: #6c6c6c;
+  margin-bottom: 4px;
+  padding-left: 39px;
   font-weight: 600;
 }
 
@@ -46,6 +46,6 @@ body > div {
 }
 
 @-webkit-keyframes MountainLion {
-  0%   { opacity: 0.5; -webkit-transform: scale(0.9) rotate3d(1, 0, 0, -75deg); }
+  0% { opacity: 0.5; -webkit-transform: scale(0.9) rotate3d(1, 0, 0, -75deg); }
   100% { opacity: 1; -webkit-transform: scale(1) rotate3d(1, 0, 0, 0deg); }
 }
