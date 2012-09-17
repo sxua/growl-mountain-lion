@@ -37,6 +37,8 @@ body > div {
   margin-bottom: 4px;
   padding-left: 39px;
   font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 #text {
